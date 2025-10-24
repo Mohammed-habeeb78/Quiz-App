@@ -1,0 +1,52 @@
+body{
+    background: #000000;
+    background: hsla(288, 20%, 75%, 1);
+
+    background: linear-gradient(45deg, hsla(288, 20%, 75%, 1) 10%, hsla(197, 65%, 42%, 1) 100%);
+
+    background: -moz-linear-gradient(45deg, hsla(288, 20%, 75%, 1) 10%, hsla(197, 65%, 42%, 1) 100%);
+
+    background: -webkit-linear-gradient(45deg, hsla(288, 20%, 75%, 1) 10%, hsla(197, 65%, 42%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#c7b3cc", endColorstr="#268ab2", GradientType=1 );
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 620px;
+}
+
+.quiz-container{
+    background-color: #268AB2;
+    width: 500px;
+    border-radius: 25px; 
+}
+
+.quiz-header{
+    padding: 4rem;
+    
+}
+h2{
+    padding: 1rem;
+    text-align: center;
+}
+
+ul li{
+    font-size: 1.1rem;
+
+}
+
+button{
+    width: 100%;
+    border: none;
+    color: black;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 15px;
+    font-weight: 900;
+}
+
+button:hover{
+    background-color: rgb(224, 224, 224);
+    cursor: pointer;
+}
